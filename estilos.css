@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: red;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    font-size: larger;
+    padding: 5px;
+    background-color: red;
+    padding: 14px 16px;
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+footer {
+    border-style: solid;
+}
+
+body {
+
+    background-color: #6b6cae;
+    font-family: "Montserrat";
+}
+
+#fotoLucas {
+    width: 35%;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: 3px solid #6b6cae;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.presentacionFoto {
+    width: 800px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    background-color: rgb(207, 82, 60);
+    color: white;
+    border-radius: 5px;
+
+}
+
+a {
+    color: #ffae80;
+}
+
+.presentacionFoto p {
+    color: black;
+    font-size: large;
+
+}
+
+p {
+    text-align: center;
+}
