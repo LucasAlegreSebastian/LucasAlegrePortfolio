@@ -6,23 +6,22 @@
 
 a {
     text-decoration: none;
+    color: #ffae80;
+
 }
-
-
 
 header {
     background-color: gray;
-    height: 50px;
+    height: 60px;
+    width: 100%;
     text-align: center;
+    line-height: 60px;
+
 }
 
-
-
-
-ul {
+nav {
     text-align: center;
-    position: -webkit-sticky;
-    /* Safari */
+    
     position: sticky;
     top: 0;
     list-style-type: none;
@@ -48,11 +47,7 @@ li a:hover {
     background-color: #111;
 }
 
-
-
-
 body {
-
     background-color: #6b6cae;
     font-family: "Montserrat";
 }
@@ -68,66 +63,123 @@ body {
     height: auto;
 }
 
-
 #presentacionFoto {
-
     width: 800px;
     padding: 10px;
     display: flex;
     flex-direction: row;
     margin: auto;
+    margin-top: 30px;
     background-color: rgb(207, 82, 60);
-    color: white;
-    border-radius: 5px;
 
-}
-
-a {
-    color: #ffae80;
+    border-radius: 10px;
 }
 
 #presentacionFoto p {
     color: black;
     font-size: medium;
     margin-top: 35px;
+    color: white;
     text-align: center;
 }
 
 
 #sobremi {
+    background-color: rgb(207, 82, 60);
+    height: 220px;
+    line-height: 17px;
+    color: white;
     padding: 0px 50px 0px 50px;
     margin: 50px 0px 50px 0px;
-    text-align: center;
-    height: 300px;
-    background-color: rgb(207, 82, 60);
-    color: white;
     border-radius: 5px;
+    font-size: medium;
+    text-align: center;
 }
 
 #sobremi h3 {
-    padding-top: 50px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 #sobremi p {
-    margin: 50px;
-    padding: 0px 5px 0px 5px;
+    margin-top: 10px;
+    padding-left: 180px;
+    padding-right: 180px;
 }
 
-footer {
 
-    bottom: 0px;
-    text-align: center;
 
-    height: 100px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#containerContacto {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 265px;
+    border-radius: 5px;
     background-color: gray;
+
 }
 
-footer h4 {
-    padding-top: 10px;
-    margin-bottom: 10px;
+#formularioMail{
+    text-align: center;
+    width: 50%;
+    
+}
+#formularioMail input,#formulario textarea{
+  
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#formularioMail textarea{
+    max-width: 500px;
+    min-width: 150px;
+    max-height: 80px;
 }
 
-footer a {
+#formularioMail h2 {
+    margin-top: 10px;
+    text-align: center;
+}
 
-    padding: 5px;
+#redes {
+
+    text-align: center;
+    width: 50%;
+}
+
+#redes a {
+    margin: 5px;
+}
+
+#redes h2 {
+
+    margin-top: 10px;
+    margin-bottom: 80px;
+
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    padding-bottom: 1px;
 }
