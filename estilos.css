@@ -21,7 +21,7 @@ header {
 
 nav {
     text-align: center;
-    
+
     position: sticky;
     top: 0;
     list-style-type: none;
@@ -108,7 +108,76 @@ body {
 }
 
 
+#proyectos {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(60, 122, 61);
+    height: 320px;
+    text-align: center;
 
+}
+
+#imgproyecto {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    height: auto;
+    border: white;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+#proyectos {
+    display: flex;
+    flex-direction: column;
+}
+
+#linksproyectos {
+    display: flex;
+    flex-direction: row;
+}
+
+#proyecto1,
+#proyecto2,
+#proyecto3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotos {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.fotos img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#proyecto1 {
+    background-color: red;
+}
+
+#proyecto2 {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+}
+
+#proyecto3 {
+    background-color: lightseagreen;
+}
 
 
 
@@ -127,26 +196,32 @@ body {
 
 #containerContacto {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    height: 265px;
+    height: 400px;
     border-radius: 5px;
     background-color: gray;
+    
+   
 
 }
 
-#formularioMail{
+#formularioMail {
     text-align: center;
     width: 50%;
-    
+
 }
-#formularioMail input,#formulario textarea{
-  
+
+#formularioMail input,
+#formulario textarea {
+
     padding: 4px;
     border-radius: 5px;
     border: 1px solid #ccc;
 }
-#formularioMail textarea{
+
+#formularioMail textarea {
     max-width: 500px;
     min-width: 150px;
     max-height: 80px;
@@ -169,13 +244,13 @@ body {
 
 #redes h2 {
 
-    margin-top: 10px;
+  
     margin-bottom: 80px;
 
     text-align: center;
 }
 
-footer{
+footer {
     background-color: black;
     height: 30px;
     line-height: 30px;
