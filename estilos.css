@@ -5,13 +5,14 @@
 }
 
 a {
+
     text-decoration: none;
     color: #ffae80;
 
 }
 
 header {
-    background-color: gray;
+    /*background-color: gray;*/
     height: 60px;
     width: 100%;
     text-align: center;
@@ -35,7 +36,7 @@ nav {
     margin-bottom: 10px;
     padding: 0px;
     overflow: hidden;
-    background-color: #333;
+    /*  background-color: #333;*/
 }
 
 li {
@@ -45,7 +46,7 @@ li {
 li a {
     font-size: larger;
     padding: 5px;
-    background-color: red;
+    /* background-color: red;*/
     padding: 14px 16px;
 
 }
@@ -72,7 +73,7 @@ li a:hover {
     flex-direction: row;
     margin: auto;
     margin-top: 30px;
-    background-color: rgb(207, 82, 60);
+    /*  background-color: rgb(207, 82, 60);*/
 
     border-radius: 10px;
 }
@@ -86,9 +87,10 @@ li a:hover {
 }
 
 /*------------------------Presentacion---------------------------------------*/
+
 /*------------------------Sobre mi---------------------------------------*/
 #sobremi {
-    background-color: rgb(207, 82, 60);
+    /* background-color: rgb(207, 82, 60);*/
     height: 220px;
     line-height: 17px;
     color: white;
@@ -113,37 +115,75 @@ li a:hover {
 /*------------------------Sobre mi---------------------------------------*/
 
 /*------------------------Conocimientos---------------------------------------*/
+
 #conocimientos {
     background-color: peru;
-    height: 300px;
+    text-align: center;
+    height: 190px;
 }
 
+#fotosConocimientos {
+    margin: 10px;
+}
+
+#fotosConocimientos img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin: 10px;
+}
+
+#fotosConocimientos img:hover {
+    transform: scale(1.05);
+
+}
+
+
 /*------------------------Conocimientos---------------------------------------*/
+
+
 /*------------------------Proyectos---------------------------------------*/
 
 
 #proyectos {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: rgb(60, 122, 61);
     height: 420px;
     text-align: center;
 
 }
 
-#imgproyecto {
+#imgproyecto1,
+#imgproyecto2 {
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 50%;
+    width: 60%;
     height: auto;
     border: white;
     border-style: solid;
-    border-radius: 30px;
+    border-width: 2px;
+    border-radius: 15px;
+
 }
 
-#proyectos {
-    display: flex;
-    flex-direction: column;
+#imgproyecto1:hover {
+    transform: scale(1.05);
+}
+
+#imgproyecto2:hover {
+    transform: scale(1.05);
+}
+
+#imgproyecto2 {
+
+    width: 75%;
+
+}
+
+
+#proyectos h2 {
+    margin-bottom: 10px;
 }
 
 #linksproyectos {
@@ -162,6 +202,7 @@ li a:hover {
 .fotos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-top: 5px;
     gap: 10px;
     width: 100%;
     max-width: 1000px;
@@ -171,26 +212,21 @@ li a:hover {
     width: 100%;
     height: 150px;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
-#proyecto1 {
-    background-color: red;
+.fotos img:hover {
+    transform: scale(1.1);
 }
+
 
 #proyecto2 {
     display: flex;
     flex-direction: column;
-    background-color: blue;
-    padding: 20px;
-    border-radius: 10px;
-    width: 100%;
+    width: 50%;
     max-width: 1000px;
     box-sizing: border-box;
-}
-
-#proyecto3 {
-    background-color: lightseagreen;
+    padding-right: 20px;
 }
 
 /*------------------------Proyectos---------------------------------------*/
@@ -204,7 +240,7 @@ li a:hover {
     width: 100%;
     height: 280px;
     border-radius: 5px;
-    background-color: gray;
+    /*  background-color: gray;*/
 
 
 
@@ -244,6 +280,10 @@ li a:hover {
     margin: 5px;
 }
 
+#redes img:hover {
+    transform: scale(1.05);
+}
+
 #redes h2 {
     margin-top: 20px;
     margin-bottom: 15px;
@@ -253,7 +293,7 @@ li a:hover {
 /*------------------------Contacto---------------------------------------*/
 /*------------------------Footer---------------------------------------*/
 footer {
-    background-color: black;
+    /*  background-color: black;*/
     height: 30px;
     line-height: 30px;
     color: white;
