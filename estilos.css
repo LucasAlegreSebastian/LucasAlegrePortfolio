@@ -414,7 +414,7 @@ footer {
 
 
     #presentacionFoto {
-        flex-direction: column;
+        flex-direction: row;
         width: 90%;
     }
 
@@ -423,7 +423,7 @@ footer {
     }
 
     #fotoLucas {
-        width: 50%;
+        width: 30%;
         margin: 0 auto 20px auto;
         float: none;
     }
@@ -445,13 +445,13 @@ footer {
     #fotosConocimientos {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     #fotosConocimientos img {
         margin: 5px;
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
     }
 
     #proyectos {
@@ -464,31 +464,41 @@ footer {
     }
 
     .fotos {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         margin-right: 0;
         width: 100%;
         padding: 0 50px;
     }
 
-    #proyecto1,
-    #proyecto3 {
-        width: 90%;
-    }
-
     #proyecto2 {
+        
         width: 90%;
         padding: 0;
     }
+   
+    #proyecto3 {
+        margin-top: 20px;
+        width: 80%;
+    }
+
+   
 
     #textoFotografia {
+        margin-top: 10px;
         margin-right: 0;
         text-align: center;
     }
 
+
     #containerContacto {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap:nowrap;
         height: auto;
-        padding: 10px;
+        padding-bottom: 10px;
+      
     }
 
     #formularioMail,
@@ -497,10 +507,11 @@ footer {
     }
 
     #redes img {
-        margin: 10px;
+        margin: 20px;
     }
 
     footer {
+       padding-top: 10px;
         height: 50px;
 
     }
