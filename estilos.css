@@ -7,7 +7,8 @@
 /*---Colores--*/
 
 body {
-    background-color: #8EA3A6;
+    background-color: #46858c;
+    color:#DDDDDD;
 }
 
 
@@ -28,21 +29,23 @@ li a:hover {
 #presentacionFoto {
     background-color: #222831;
 }
-
+#presentacionFoto a:hover{
+background-color: #46858c;
+}
 #sobremi {
     background-color:#A04747;
 }
 
-#conocimientos {
-    background-color:
-}
+
 
 #proyectos {
     background-color: #A04747;
 }
-
-#containerContacto {
-   
+#proyectos a:hover{
+    background-color: #46858c;
+}
+#proyectos a{
+    border-radius: 5px;
 }
 
 footer {
@@ -167,6 +170,9 @@ li a {
     text-align: center;
     height: 190px;
 }
+#conocimientos h2{
+    margin-bottom: 20px;
+}
 
 #fotosConocimientos {
     margin: 10px;
@@ -230,6 +236,7 @@ li a {
 
 
 #proyectos h2 {
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -319,7 +326,7 @@ li a {
 #formularioMail textarea {
     max-width: 500px;
     min-width: 150px;
-    max-height: 80px;
+    max-height: 75px;
 }
 
 #formularioMail h2 {
@@ -444,6 +451,12 @@ footer {
     #redes {
         width: 100%;
     }
+    #formularioMail textarea {
+        max-width: 370px;
+        min-width: 58px;
+        min-height: 62px;
+        max-height: 75px;
+    }
 
     #redes img {
         margin: 10px;
@@ -551,7 +564,12 @@ footer {
     #redes {
         width: 100%;
     }
-
+    #formularioMail textarea {
+        max-width: 398px;
+        min-width: 96px;
+        min-height: 65px;
+        max-height: 75px;
+    }
     #redes img {
         margin: 20px;
     }
