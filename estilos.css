@@ -4,15 +4,64 @@
     box-sizing: border-box;
 }
 
+/*---Colores--*/
+
+body {
+    background-color: #8EA3A6;
+}
+
+
+header{
+    background-color: #222831;
+}
+h1{color:#DDDDDD}
+nav {
+    background-color: #222831;
+}
+a {
+    color: #DDDDDD;
+}
+li a:hover {
+    background-color:#A04747;
+}
+
+#presentacionFoto {
+    background-color: #222831;
+}
+
+#sobremi {
+    background-color:#A04747;
+}
+
+#conocimientos {
+    background-color:
+}
+
+#proyectos {
+    background-color: #A04747;
+}
+
+#containerContacto {
+   
+}
+
+footer {
+    background-color: #222831;
+}
+
+
+
+/*--Colores--*/
+
 a {
 
     text-decoration: none;
-    color: #ffae80;
+    
 
 }
 
 header {
-    /*background-color: gray;*/
+    
     height: 60px;
     width: 100%;
     text-align: center;
@@ -21,7 +70,7 @@ header {
 }
 
 body {
-    background-color: #6b6cae;
+
     font-family: "Montserrat";
 }
 
@@ -36,7 +85,7 @@ nav {
     margin-bottom: 10px;
     padding: 0px;
     overflow: hidden;
-    background-color: #333;
+  
 }
 
 li {
@@ -46,14 +95,11 @@ li {
 li a {
     font-size: larger;
     padding: 5px;
-    /* background-color: red;*/
-    padding: 14px 16px;
+       padding: 14px 16px;
 
 }
 
-li a:hover {
-    background-color: #111;
-}
+
 
 #fotoLucas {
     width: 35%;
@@ -61,7 +107,7 @@ li a:hover {
     margin-right: 10px;
     margin-left: 10px;
     border-radius: 15px;
-    border: 3px solid #6b6cae;
+    border: 3px;
     max-width: 100%;
     height: auto;
 }
@@ -73,13 +119,13 @@ li a:hover {
     flex-direction: row;
     margin: auto;
     margin-top: 30px;
-    background-color: rgb(207, 82, 60);
+    
 
     border-radius: 10px;
 }
 
 #presentacionFoto p {
-    color: black;
+    
     font-size: medium;
     margin-top: 35px;
     color: white;
@@ -90,7 +136,7 @@ li a:hover {
 
 /*------------------------Sobre mi---------------------------------------*/
 #sobremi {
-    background-color: rgb(207, 82, 60);
+   
     height: 220px;
     line-height: 17px;
     color: white;
@@ -117,7 +163,7 @@ li a:hover {
 /*------------------------Conocimientos---------------------------------------*/
 
 #conocimientos {
-    background-color: peru;
+  
     text-align: center;
     height: 190px;
 }
@@ -148,7 +194,7 @@ li a:hover {
 #proyectos {
     display: flex;
     flex-direction: column;
-    background-color: rgb(60, 122, 61);
+   
     height: 500px;
     text-align: center;
 
@@ -250,7 +296,7 @@ li a:hover {
     width: 100%;
     height: 260px;
     border-radius: 5px;
-    background-color: blue;
+   
 
 
 
@@ -307,7 +353,7 @@ li a:hover {
 /*------------------------Contacto---------------------------------------*/
 /*------------------------Footer---------------------------------------*/
 footer {
-    background-color: rgb(53, 53, 53);
+    
     height: 30px;
     line-height: 30px;
     color: white;
@@ -471,17 +517,17 @@ footer {
     }
 
     #proyecto2 {
-        
+
         width: 90%;
         padding: 0;
     }
-   
+
     #proyecto3 {
         margin-top: 20px;
         width: 80%;
     }
 
-   
+
 
     #textoFotografia {
         margin-top: 10px;
@@ -495,10 +541,10 @@ footer {
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-        flex-wrap:nowrap;
+        flex-wrap: nowrap;
         height: auto;
         padding-bottom: 10px;
-      
+
     }
 
     #formularioMail,
@@ -511,7 +557,7 @@ footer {
     }
 
     footer {
-       padding-top: 10px;
+        padding-top: 10px;
         height: 50px;
 
     }
